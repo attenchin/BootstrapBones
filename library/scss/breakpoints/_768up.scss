@@ -1,0 +1,50 @@
+/******************************************************************
+Stylesheet: Tablet & Small Desktop Stylesheet
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+  	margin: 0 0 100px; /* bottom = footer height */
+}
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+a[href^="tel"]{pointer-events: none;}
+/*********************
+HEADER STYLES
+*********************/
+/*********************
+NAVIGATION STYLES
+*********************/
+/*********************
+SIDEBARS & ASIDES
+*********************/
+/*********************
+FOOTER STYLES
+*********************/
+footer.footer {
+	 height: 100px;
+	ul {
+		margin: 0 10px;
+
+	li {
+		text-align: center;
+		line-height: 1em;
+		padding: 0 10px 0 5px;
+		margin: 0;
+		display: inline-block;
+		border-right: 1px solid $white;
+				&:last-child {
+					border-right: none;
+				}
+		}
+	li.lastsocial {
+					border-right: none;
+				}
+	}
+
+}
